@@ -1,0 +1,74 @@
+/* variables */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Barlow', sans-serif;
+}
+
+a:hover{
+  color: #F26A33;
+}
+
+.account-dropdown{
+  direction: rtl;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.account-greeting{
+  display: inline-block;
+  font-size: 1.25em
+}
+
+.brand-bar{
+  background-color: #2D2A2B;
+  height: 3.6em;
+  width: 100%;
+}
+
+.down-arrow{
+  width: 1%;
+  display: inline-block;
+}
+
+.header-logo{
+  margin-left: 50%;
+  margin-top: 1em;
+  width: 2%;
+}
+
+.issue-warning{
+  margin-left: 45%;
+}
+
+.main-container{
+  margin: 5em;
+}
+
+.team-title{
+  font-size: 3.125em;
+  font-weight: 100;
+}
+
+.warning-icon{
+  display: inline-block;
+  width: 3%;
+  vertical-align: top;
+}
+
+.warning-text{
+  color: #ED7474;
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: 800;
+  margin-left:0.5em;
+  text-decoration: none;
+}
